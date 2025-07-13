@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.final, .fecha {
+  background-color: #ffffcc;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
