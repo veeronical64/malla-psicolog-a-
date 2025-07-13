@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Interactiva</title>
+  <link rel="stylesheet" href="styles/estilos.css" />
+</head>
+<body>
+  <h1>Malla Interactiva - Psicología UBA</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Materia</th>
+        <th>Correlativas</th>
+        <th>Nota Final</th>
+        <th>Fecha de Cursada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Psicología General</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text" placeholder="Nota" /></td>
+        <td class="fecha"><input type="text" placeholder="Mes/Año" /></td>
+      </tr>
+      <tr>
+        <td>Epistemología</td>
+        <td class="correlativas">—</td>
+        <td class="final"><input type="text" placeholder="Nota" /></td>
+        <td class="fecha"><input type="text" placeholder="Mes/Año" /></td>
+      </tr>
+      <tr>
+        <td>Psicoanálisis: Freud</td>
+        <td class="correlativas">Psicología General</td>
+        <td class="final"><input type="text" placeholder="Nota" /></td>
+        <td class="fecha"><input type="text" placeholder="Mes/Año" /></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="scripts/main.js"></script>
+</body>
+                            </html>
